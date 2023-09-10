@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FH185\\Documents\\Ternomecanica\\8ª Semestre\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj": {}
+    "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FH185\\Documents\\Ternomecanica\\8ª Semestre\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj": {
+    "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FH185\\Documents\\Ternomecanica\\8ª Semestre\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj",
+        "projectUniqueName": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj",
         "projectName": "CurrentXpose",
-        "projectPath": "C:\\Users\\FH185\\Documents\\Ternomecanica\\8ª Semestre\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj",
+        "projectPath": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj",
         "packagesPath": "C:\\Users\\FH185\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FH185\\Documents\\Ternomecanica\\8ª Semestre\\CurrentXpose\\CurrentXpose\\obj\\",
+        "outputPath": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
