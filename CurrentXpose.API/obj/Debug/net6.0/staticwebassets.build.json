@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PGrNVUJa00XCchaod9eVwmpo/tgoXxUttPpXDiozGLc=",
+  "Source": "CurrentXpose.API",
+  "BasePath": "_content/CurrentXpose.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
