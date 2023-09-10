@@ -16,3 +16,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.logo {
+    background-image: url('/img/logo/CurrentXpose.jpg');
+    background-repeat:no-repeat;
+    background-size: 400px 300px;
+    background-attachment: fixed;
+    background-position: center center;
+}
