@@ -4,11 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrentXpose", "CurrentXpose\CurrentXpose.csproj", "{7CAD3157-6C8E-463B-B4CE-6942E416AB4C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{9B85E70E-8981-430F-8B97-5FA32A386439} = {9B85E70E-8981-430F-8B97-5FA32A386439}
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrentXpose.API", "CurrentXpose.API\CurrentXpose.API.csproj", "{9B85E70E-8981-430F-8B97-5FA32A386439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrentXpose.API", "CurrentXpose.API\CurrentXpose.API.csproj", "{9B85E70E-8981-430F-8B97-5FA32A386439}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
