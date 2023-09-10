@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\logo\\CurrentXpose.jpg",
+      "PackagePath": "staticwebassets\\img\\logo\\CurrentXpose.jpg"
+    },
+    {
       "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
