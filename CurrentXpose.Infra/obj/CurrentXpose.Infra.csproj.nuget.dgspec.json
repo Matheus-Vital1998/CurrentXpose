@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\CurrentXpose\\CurrentXpose.API\\CurrentXpose.API.csproj": {}
+    "Z:\\CurrentXpose\\CurrentXpose.Infra\\CurrentXpose.Infra.csproj": {}
   },
   "projects": {
-    "Z:\\CurrentXpose\\CurrentXpose.API\\CurrentXpose.API.csproj": {
+    "Z:\\CurrentXpose\\CurrentXpose.Infra\\CurrentXpose.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\CurrentXpose\\CurrentXpose.API\\CurrentXpose.API.csproj",
-        "projectName": "CurrentXpose.API",
-        "projectPath": "Z:\\CurrentXpose\\CurrentXpose.API\\CurrentXpose.API.csproj",
+        "projectUniqueName": "Z:\\CurrentXpose\\CurrentXpose.Infra\\CurrentXpose.Infra.csproj",
+        "projectName": "CurrentXpose.Infra",
+        "projectPath": "Z:\\CurrentXpose\\CurrentXpose.Infra\\CurrentXpose.Infra.csproj",
         "packagesPath": "C:\\Users\\081210042\\.nuget\\packages\\",
-        "outputPath": "Z:\\CurrentXpose\\CurrentXpose.API\\obj\\",
+        "outputPath": "Z:\\CurrentXpose\\CurrentXpose.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,12 +45,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -63,9 +57,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

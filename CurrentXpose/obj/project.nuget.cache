@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "zTScZbxNiSzjJ5ssQJK28aDSaGcnnDn7iphN6AMjT6jK8vYBZGjTL+fReuBSGavThSkQAFR9iaihep9e4cQ85w==",
+  "dgSpecHash": "hJDNA3hqrljbhaZhXWOuktQsgJoNPzwJdOhc9nZsbYNI1p44jWCYhiOev+ffy5Fr/jLUOhgUb4XFCOev+fGTDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "Z:\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\081210042\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\081210042\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\081210042\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\081210042\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\081210042\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\081210042\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }
