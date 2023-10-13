@@ -8,9 +8,9 @@ namespace CurrentXpose.Domain.Entidades
 {
     public class Leitura
     {
-        public DateTime Data_Leitura { get; set; }
-        public double Valor { get; set; }
-        public Residencia Residencia { get; set; }
+        public int id { get; set; }
+        public DateTime data_da_leitura { get; set; }
+        public double valor_da_leitura { get; set; }
 
         public Leitura() { }
     }

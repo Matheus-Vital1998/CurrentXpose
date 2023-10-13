@@ -8,10 +8,11 @@ namespace CurrentXpose.Domain.Entidades
 {
     public class Morador
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string  Login { get; set; }
-        public string Senha { get; set; }
+        public int id { get; set; }
+        public string nome { get; set; }
+        public string  login { get; set; }
+        public string senha { get; set; }
+        public Residencia residencia { get; set; }
 
         public Morador() { }
     }

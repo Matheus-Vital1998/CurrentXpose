@@ -8,9 +8,8 @@ namespace CurrentXpose.Domain.Entidades
 {
     public class Condominio
     {
-        public int Id { get; set; }
-        public Sindico sindico { get; set; }
-        public string Nome { get; set; }
+        public int id { get; set; }
+        public string nome { get; set; }
 
         public Condominio() { }
     }

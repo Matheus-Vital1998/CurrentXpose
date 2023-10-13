@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "CurrentXpose/1.0.0": {
+      "CurrentXpose.Domain/1.0.0": {
         "runtime": {
-          "CurrentXpose.dll": {}
+          "CurrentXpose.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "CurrentXpose/1.0.0": {
+    "CurrentXpose.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

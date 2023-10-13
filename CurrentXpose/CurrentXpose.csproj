@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CurrentXpose.API\CurrentXpose.API.csproj" />
     <ProjectReference Include="..\CurrentXpose.Domain\CurrentXpose.Domain.csproj" />
+    <ProjectReference Include="..\CurrentXpose.Infra\CurrentXpose.Infra.csproj" />
   </ItemGroup>
 
 </Project>
