@@ -13,9 +13,13 @@ namespace CurrentXpose.Infra.Context
         public virtual DbSet<Residencia> Residencia { get; set; }
         public virtual DbSet<Sindico> Sindico { get; set; }
 
-        public CurrentXposeContext() { }
+        public CurrentXposeContext()
+        {
+        }
 
-        public CurrentXposeContext(DbContextOptions<CurrentXposeContext> options) : base(options) { }
+        public CurrentXposeContext(DbContextOptions<CurrentXposeContext> options) : base(options)
+        {
+        }
 
     }
 }

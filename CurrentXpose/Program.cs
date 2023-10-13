@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<CurrentXposeContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CurrentXpose"),
-     builder => builder.MigrationsAssembly(typeof(AppContext).Assembly.FullName)));
+    builder => builder.MigrationsAssembly(typeof(CurrentXposeContext).Assembly.FullName)));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

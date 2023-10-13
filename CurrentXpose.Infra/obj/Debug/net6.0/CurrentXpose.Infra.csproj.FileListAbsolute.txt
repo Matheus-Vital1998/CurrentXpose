@@ -1,4 +1,5 @@
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Infra.deps.json
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Infra.runtimeconfig.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Infra.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Infra.pdb
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Domain.dll
@@ -12,6 +13,5 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\refint\CurrentXpose.Infra.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.pdb
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\ref\CurrentXpose.Infra.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Infra.runtimeconfig.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.genruntimeconfig.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\ref\CurrentXpose.Infra.dll
