@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "BoehhXYonPwjmc9pDX9sFomsCK61bUu4stPHmy/XQ/g=",
+  "Hash": "R74TkB0+9lgwMkOl/YPonPAUnyeQI8UqJBpzdo/A+eM=",
   "Source": "CurrentXpose",
   "BasePath": "_content/CurrentXpose",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose.API\\CurrentXpose.API.csproj",
+      "Version": 2,
+      "Source": "CurrentXpose.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "CurrentXpose\\wwwroot",

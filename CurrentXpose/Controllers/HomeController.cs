@@ -1,4 +1,5 @@
-﻿using CurrentXpose.Models;
+﻿using CurrentXpose.Domain.Entidades;
+using CurrentXpose.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
