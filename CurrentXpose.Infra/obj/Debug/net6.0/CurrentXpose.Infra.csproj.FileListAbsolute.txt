@@ -15,3 +15,20 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.pdb
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.genruntimeconfig.cache
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\ref\CurrentXpose.Infra.dll
+Z:\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Infra.deps.json
+Z:\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Infra.runtimeconfig.json
+Z:\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Infra.dll
+Z:\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Infra.pdb
+Z:\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Domain.dll
+Z:\CurrentXpose\CurrentXpose.Infra\bin\Debug\net6.0\CurrentXpose.Domain.pdb
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.csproj.AssemblyReference.cache
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.GeneratedMSBuildEditorConfig.editorconfig
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.AssemblyInfoInputs.cache
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.AssemblyInfo.cs
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.csproj.CoreCompileInputs.cache
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.csproj.CopyComplete
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.dll
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\refint\CurrentXpose.Infra.dll
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.pdb
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\CurrentXpose.Infra.genruntimeconfig.cache
+Z:\CurrentXpose\CurrentXpose.Infra\obj\Debug\net6.0\ref\CurrentXpose.Infra.dll

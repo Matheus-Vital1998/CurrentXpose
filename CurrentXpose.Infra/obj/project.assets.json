@@ -2909,25 +2909,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FH185\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\081210042\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose.Infra\\CurrentXpose.Infra.csproj",
+      "projectUniqueName": "Z:\\CurrentXpose\\CurrentXpose.Infra\\CurrentXpose.Infra.csproj",
       "projectName": "CurrentXpose.Infra",
-      "projectPath": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose.Infra\\CurrentXpose.Infra.csproj",
-      "packagesPath": "C:\\Users\\FH185\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose.Infra\\obj\\",
+      "projectPath": "Z:\\CurrentXpose\\CurrentXpose.Infra\\CurrentXpose.Infra.csproj",
+      "packagesPath": "C:\\Users\\081210042\\.nuget\\packages\\",
+      "outputPath": "Z:\\CurrentXpose\\CurrentXpose.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\FH185\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\081210042\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2943,8 +2941,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose.Domain\\CurrentXpose.Domain.csproj": {
-              "projectPath": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose.Domain\\CurrentXpose.Domain.csproj"
+            "Z:\\CurrentXpose\\CurrentXpose.Domain\\CurrentXpose.Domain.csproj": {
+              "projectPath": "Z:\\CurrentXpose\\CurrentXpose.Domain\\CurrentXpose.Domain.csproj"
             }
           }
         }
@@ -2996,7 +2994,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
