@@ -14,12 +14,12 @@
 </head>
 <body class="login-bg">
     <div class="login-container">
-        <form class="login-form" method="post" asp-action="Login" asp-controller="Login">
+        <form class="login-form" method="post" asp-action="Inicial" asp-controller="Usuario">
             <h1>Login</h1>
             <label for="username">Username:</label>
-            <input type="text" id="username" asp-for="Login" required>
+            <input type="text" asp-for="Login" id="username" asp-for="Login" required>
             <label for="password">Password:</label>
-            <input type="password" id="password" asp-for="Senha" required>
+            <input type="password" asp-for="Senha" id="password" asp-for="Senha" required>
             <button type="submit">Login</button>
             <div class="text-center">
                 <a class="link" asp-action="Recadastrar" asp-controller="Login">Esqueceu a senha</a>

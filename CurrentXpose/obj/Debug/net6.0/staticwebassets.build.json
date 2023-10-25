@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UoXvagnWr1Dm6BGJzW5CPf5gXoZw7Bkv6DJPeiTSek0=",
+  "Hash": "1t/n/L8QU7ZQ2edS04UUWYTrEOf6+kNDqEcySghDxbU=",
   "Source": "CurrentXpose",
   "BasePath": "_content/CurrentXpose",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "Z:\\CurrentXpose\\CurrentXpose\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CurrentXpose.bundle.scp.css"
+    },
+    {
+      "Identity": "Z:\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\inicio-usuario.css",
+      "SourceId": "CurrentXpose",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\CurrentXpose\\CurrentXpose\\wwwroot\\",
+      "BasePath": "_content/CurrentXpose",
+      "RelativePath": "css/inicio-usuario.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\inicio-usuario.css"
     },
     {
       "Identity": "Z:\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\login.css",

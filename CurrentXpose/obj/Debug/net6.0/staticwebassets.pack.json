@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\CurrentXpose.bundle.scp.css"
     },
     {
+      "Id": "Z:\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\inicio-usuario.css",
+      "PackagePath": "staticwebassets\\css\\inicio-usuario.css"
+    },
+    {
       "Id": "Z:\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },

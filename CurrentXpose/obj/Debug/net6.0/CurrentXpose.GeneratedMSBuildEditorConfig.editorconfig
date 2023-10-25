@@ -24,8 +24,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/CurrentXpose/CurrentXpose/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+[Z:/CurrentXpose/CurrentXpose/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [Z:/CurrentXpose/CurrentXpose/Views/Shared/Error.cshtml]
@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [Z:/CurrentXpose/CurrentXpose/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/CurrentXpose/CurrentXpose/Views/Usuario/Inicial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmljaWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [Z:/CurrentXpose/CurrentXpose/Views/_ViewImports.cshtml]

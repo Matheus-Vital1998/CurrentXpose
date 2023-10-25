@@ -2,9 +2,9 @@
 
 namespace CurrentXpose.Controllers
 {
-    public class LoginController : Controller
+    public class UsuarioController : Controller
     {
-        public IActionResult Login()
+        public IActionResult Inicial()
         {
             return View();
         }
