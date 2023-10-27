@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="~/css/lateral.css">
+</head>
+
+<body>
+    <div class="sidebar" id="mySidebar">
+        <div class="close-btn" onclick="toggleSidebar()">×</div>
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function toggleSidebar() {
+        var sidebar = document.getElementById("mySidebar");
+        sidebar.classList.toggle("open");
+    }
+</script>

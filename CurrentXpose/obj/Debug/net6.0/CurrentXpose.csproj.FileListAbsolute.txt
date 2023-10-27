@@ -29,11 +29,6 @@ C:\Users\FH185\Documents\Ternomecanica\8ª Semestre\CurrentXpose\CurrentXpose\ob
 C:\Users\FH185\Documents\Ternomecanica\8ª Semestre\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.pdb
 C:\Users\FH185\Documents\Ternomecanica\8ª Semestre\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.genruntimeconfig.cache
 C:\Users\FH185\Documents\Ternomecanica\8ª Semestre\CurrentXpose\CurrentXpose\obj\Debug\net6.0\ref\CurrentXpose.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.API.deps.json
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.API.runtimeconfig.json
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettingsAPI.DevelopmentAPI.json
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettingsAPI.json
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.API.exe
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Production.json
@@ -72,13 +67,9 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Mono.TextTemplating.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -103,10 +94,8 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.API.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Domain.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Infra.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.API.pdb
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Domain.pdb
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Infra.pdb
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.AssemblyReference.cache
@@ -114,7 +103,6 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.AssemblyInfoInputs.cache
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.AssemblyInfo.cs
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.CoreCompileInputs.cache
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.RazorAssemblyInfo.cache
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.RazorAssemblyInfo.cs

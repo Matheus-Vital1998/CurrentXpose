@@ -1,5 +1,8 @@
-﻿body{
-    background-color: skyblue;
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ee8c04, #FFFFFF);
 }
 
 h2{

@@ -77,11 +77,8 @@ button {
     }
 
 .login-bg {
-    background-image: url('../img/login.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #FFA500, #FFFFFF);
 }
