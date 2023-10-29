@@ -23,4 +23,8 @@
     <ProjectReference Include="..\CurrentXpose.Infra\CurrentXpose.Infra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Sindico\" />
+  </ItemGroup>
+
 </Project>

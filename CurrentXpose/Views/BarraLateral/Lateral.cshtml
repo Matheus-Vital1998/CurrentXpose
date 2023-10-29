@@ -2,18 +2,20 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="~/css/lateral.css">
+    <link rel="stylesheet" href="~/css/barra-lateral/lateral.css">
 </head>
 
 <body>
     <div class="sidebar" id="mySidebar">
         <div class="close-btn" onclick="toggleSidebar()">×</div>
-        <h2>Menu</h2>
+        <img src="~/img/logo/CurrentXpose.jpg" />
         <ul>
-            <li><a href="#">Item 1</a></li>
-            <li><a href="#">Item 2</a></li>
-            <li><a href="#">Item 3</a></li>
+            <li><a asp-controller="Morador" asp-action="Historico">Historico</a></li>
+            <li><a asp-controller="Economia" asp-action="Economia">Como economizar?</a></li>
+            <li><a asp-controller="FaleConosco" asp-action="FaleConosco">Fale Conosco</a></li>
+            <li><a asp-controller="Sobre" asp-action="Sobre">Sobre</a></li>
         </ul>
+        <a class="logout" asp-controller="Login" asp-action="Login">Logout</a>
     </div>
 </body>
 
