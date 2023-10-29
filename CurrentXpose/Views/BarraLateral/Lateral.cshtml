@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="~/css/barra-lateral/lateral.css">
+</head>
+
+<body>
+    <div class="sidebar" id="mySidebar">
+        <div class="close-btn" onclick="toggleSidebar()">×</div>
+        <img src="~/img/logo/CurrentXpose.jpg" />
+        <ul>
+            <li><a asp-controller="Morador" asp-action="Historico">Historico</a></li>
+            <li><a asp-controller="Economia" asp-action="Economia">Como economizar?</a></li>
+            <li><a asp-controller="FaleConosco" asp-action="FaleConosco">Fale Conosco</a></li>
+            <li><a asp-controller="Sobre" asp-action="Sobre">Sobre</a></li>
+        </ul>
+        <a class="logout" asp-controller="Login" asp-action="Login">Logout</a>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function toggleSidebar() {
+        var sidebar = document.getElementById("mySidebar");
+        sidebar.classList.toggle("open");
+    }
+</script>

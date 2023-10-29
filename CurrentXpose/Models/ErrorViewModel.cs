@@ -1,4 +1,4 @@
-namespace CurrentXpose.Models
+﻿namespace CurrentXpose.Models
 {
     public class ErrorViewModel
     {

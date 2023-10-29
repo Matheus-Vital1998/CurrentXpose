@@ -31,12 +31,73 @@ C:\Users\FH185\Documents\Ternomecanica\8ª Semestre\CurrentXpose\CurrentXpose\ob
 C:\Users\FH185\Documents\Ternomecanica\8ª Semestre\CurrentXpose\CurrentXpose\obj\Debug\net6.0\ref\CurrentXpose.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.json
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Staging.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.staticwebassets.runtime.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.exe
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.deps.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.runtimeconfig.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.pdb
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Humanizer.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Domain.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Infra.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Domain.pdb
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Infra.pdb
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.AssemblyReference.cache
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.AssemblyInfoInputs.cache
@@ -55,10 +116,102 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\scopedcss\bundle\CurrentXpose.styles.css
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\scopedcss\projectbundle\CurrentXpose.bundle.scp.css
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.CopyComplete
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\refint\CurrentXpose.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.pdb
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.genruntimeconfig.cache
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\ref\CurrentXpose.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Production.json
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Staging.json
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Development.json
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.json
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Production.json
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Staging.json
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.staticwebassets.runtime.json
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.exe
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.deps.json
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.runtimeconfig.json
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.pdb
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Azure.Core.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Azure.Identity.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Humanizer.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Mono.TextTemplating.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.CodeDom.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Drawing.Common.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Memory.Data.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Runtime.Caching.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Security.Permissions.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Text.Json.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Windows.Extensions.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Domain.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Infra.dll
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Domain.pdb
+Z:\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Infra.pdb
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.AssemblyReference.cache
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.GeneratedMSBuildEditorConfig.editorconfig
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.AssemblyInfoInputs.cache
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.AssemblyInfo.cs
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.CoreCompileInputs.cache
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.MvcApplicationPartsAssemblyInfo.cache
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.RazorAssemblyInfo.cache
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.RazorAssemblyInfo.cs
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets\msbuild.CurrentXpose.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets\msbuild.build.CurrentXpose.props
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CurrentXpose.props
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CurrentXpose.props
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets.pack.json
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets.build.json
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets.development.json
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\scopedcss\bundle\CurrentXpose.styles.css
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\scopedcss\projectbundle\CurrentXpose.bundle.scp.css
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.CopyComplete
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.dll
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\refint\CurrentXpose.dll
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.pdb
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.genruntimeconfig.cache
+Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\ref\CurrentXpose.dll

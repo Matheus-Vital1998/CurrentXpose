@@ -5,6 +5,38 @@
       "PackagePath": "staticwebassets\\CurrentXpose.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\barra-lateral\\lateral.css",
+      "PackagePath": "staticwebassets\\css\\barra-lateral\\lateral.css"
+    },
+    {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\login\\login.css",
+      "PackagePath": "staticwebassets\\css\\login\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\login\\senha.css",
+      "PackagePath": "staticwebassets\\css\\login\\senha.css"
+    },
+    {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\morador\\historico.css",
+      "PackagePath": "staticwebassets\\css\\morador\\historico.css"
+    },
+    {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\morador\\inicio-usuario.css",
+      "PackagePath": "staticwebassets\\css\\morador\\inicio-usuario.css"
+    },
+    {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\sistema\\economia.css",
+      "PackagePath": "staticwebassets\\css\\sistema\\economia.css"
+    },
+    {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\sistema\\faleConosco.css",
+      "PackagePath": "staticwebassets\\css\\sistema\\faleConosco.css"
+    },
+    {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\sistema\\sobre.css",
+      "PackagePath": "staticwebassets\\css\\sistema\\sobre.css"
+    },
+    {
       "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -15,6 +47,10 @@
     {
       "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\logo\\CurrentXpose.jpg",
       "PackagePath": "staticwebassets\\img\\logo\\CurrentXpose.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\svg\\CurrentXpose.svg",
+      "PackagePath": "staticwebassets\\img\\svg\\CurrentXpose.svg"
     },
     {
       "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\js\\site.js",

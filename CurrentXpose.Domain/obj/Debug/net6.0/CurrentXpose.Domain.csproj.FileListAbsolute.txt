@@ -1,0 +1,28 @@
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\bin\Debug\net6.0\CurrentXpose.Domain.deps.json
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\bin\Debug\net6.0\CurrentXpose.Domain.runtimeconfig.json
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\bin\Debug\net6.0\CurrentXpose.Domain.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\bin\Debug\net6.0\CurrentXpose.Domain.pdb
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.csproj.AssemblyReference.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.AssemblyInfoInputs.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.AssemblyInfo.cs
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.csproj.CoreCompileInputs.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\refint\CurrentXpose.Domain.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.pdb
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.genruntimeconfig.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\ref\CurrentXpose.Domain.dll
+Z:\CurrentXpose\CurrentXpose.Domain\bin\Debug\net6.0\CurrentXpose.Domain.deps.json
+Z:\CurrentXpose\CurrentXpose.Domain\bin\Debug\net6.0\CurrentXpose.Domain.runtimeconfig.json
+Z:\CurrentXpose\CurrentXpose.Domain\bin\Debug\net6.0\CurrentXpose.Domain.dll
+Z:\CurrentXpose\CurrentXpose.Domain\bin\Debug\net6.0\CurrentXpose.Domain.pdb
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.csproj.AssemblyReference.cache
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.GeneratedMSBuildEditorConfig.editorconfig
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.AssemblyInfoInputs.cache
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.AssemblyInfo.cs
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.csproj.CoreCompileInputs.cache
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.dll
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\refint\CurrentXpose.Domain.dll
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.pdb
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\CurrentXpose.Domain.genruntimeconfig.cache
+Z:\CurrentXpose\CurrentXpose.Domain\obj\Debug\net6.0\ref\CurrentXpose.Domain.dll

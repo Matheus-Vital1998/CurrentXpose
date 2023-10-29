@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Tela inicial";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/morador/inicio-usuario.css">
+    <link rel="stylesheet" href="~/css/lateral.css">
+</head>
+
+<body>
+    <div class="open-btn" onclick="toggleSidebar()">☰</div>
+
+    <!-- Incluindo a barra lateral -->
+    @{
+        await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
+    }
+
+    <!-- Conteúdo da página principal -->
+    <div class="content">
+        <h2>Seja bem-vindo!</h2>
+        <!-- Conteúdo da sua página aqui -->
+    </div>
+</body>
+
+</html>
+
