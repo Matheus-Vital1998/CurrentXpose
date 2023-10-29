@@ -1,0 +1,43 @@
+﻿body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #156D2E;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+#grafico {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #FDC119;
+}
+
+    #grafico h2 {
+        color: #156D2E;
+    }
+
+#descricao {
+    flex: 1;
+    padding: 20px;
+}
+
+#barra {
+    flex: 0 0 20px; /* Espessura horizontal de 20px */
+    background-color: #156D2E; /* Cor da barra lateral */
+    position: relative;
+}
+
+#botao {
+    position: absolute;
+    top: 25px; /* 25px abaixo do topo da tela */
+    right: 5px; /* Espaçamento à direita */
+    padding: 0; /* Remova o preenchimento para que a imagem ocupe o espaço total */
+    border: none; /* Remova a borda do botão */
+    background: none; /* Remova o plano de fundo do botão */
+}
+
+    #botao img {
+        width: 40px; /* Largura da imagem */
+        height: 40px; /* Altura da imagem */
+    }

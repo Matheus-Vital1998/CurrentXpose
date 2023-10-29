@@ -8,5 +8,15 @@ namespace CurrentXpose.Controllers
         {
             return View();
         }
+        
+        public IActionResult TrocarSenha()
+        {
+            return View();
+        }
+
+        public IActionResult Logout() 
+        {
+            return View();
+        }
     }
 }

@@ -9,49 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CurrentXpose
 build_property.RootNamespace = CurrentXpose
-build_property.ProjectDir = C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\
+build_property.ProjectDir = C:\Users\Matheus\Documents\GitHub\CurrentXpose\CurrentXpose\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose
+build_property.MSBuildProjectDirectory = C:\Users\Matheus\Documents\GitHub\CurrentXpose\CurrentXpose
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/BarraLateral/Lateral.cshtml]
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/BarraLateral/Lateral.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFycmFMYXRlcmFsXExhdGVyYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/Economia/Economia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvbm9taWFcRWNvbm9taWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/FaleConosco/FaleConosco.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFsZUNvbm9zY29cRmFsZUNvbm9zY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/Login/Login.cshtml]
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/Shared/Error.cshtml]
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/Login/TrocarSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVHJvY2FyU2VuaGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/Morador/Historico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxIaXN0b3JpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/Morador/Inicial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxJbmljaWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/Usuario/Inicial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmljaWFsLmNzaHRtbA==
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/Sobre/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29icmVcU29icmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/_ViewImports.cshtml]
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/_ViewStart.cshtml]
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FH185/Documents/Ternomecanica/Projeto interdisciplinar/CurrentXpose/CurrentXpose/Views/Shared/_Layout.cshtml]
+[C:/Users/Matheus/Documents/GitHub/CurrentXpose/CurrentXpose/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n3j3y9c7sd

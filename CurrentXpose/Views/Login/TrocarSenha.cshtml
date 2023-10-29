@@ -1,0 +1,34 @@
+﻿@model TrocarSenhaViewModel;
+
+@{
+    ViewData["Title"] = "Tela Trocar Senha";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login/senha.css">
+    <title>Trocar Senha</title>
+</head>
+<body class="login-bg">
+    <div class="login-container">
+        <form class="login-form" method="post" asp-action="TrocarSenha" asp-controller="Login" style="margin-bottom: 80px;">
+            <h1>Trocar Senha</h1>
+            <label for="username">Username:</label>
+            <input type="text" asp-for="Login" id="username" asp-for="Login" required>
+            <label for="securityQuestion">Pergunta de Segurança:</label>
+            <input type="text" asp-for="PerguntaSeguranca" id="securityQuestion" asp-for="PerguntaSeguranca" required>
+            <label for="securityAnswer">Resposta:</label>
+            <input type="text" asp-for="RespostaSeguranca" id="securityAnswer" asp-for="RespostaSeguranca" required>
+            <label for="password">Nova Senha:</label>
+            <input type="password" asp-for="NovaSenha" id="password" asp-for="NovaSenha" required>
+            <button type="submit">Trocar Senha</button>
+            <div class="text-center">
+                <a class="link" asp-action="Login" asp-controller="Login">Voltar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

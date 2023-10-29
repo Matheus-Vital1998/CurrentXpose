@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Tela de Historico";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/morador/historico.css">
+    <link rel="stylesheet" href="~/css/barra-lateral/lateral.css">
+</head>
+
+<body>
+    <div class="open-btn" onclick="toggleSidebar()">☰</div>
+
+    <!-- Incluindo a barra lateral -->
+    @{
+        await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
+    }
+
+    <!-- Conteúdo da página principal -->
+    <div class="content">
+        <div id="grafico">
+            <h2>Consumo de Energia</h2>
+            <canvas id="myChart" width="400" height="200"></canvas>
+        </div>
+
+        <div id="descricao">
+            <p>Descrição do gráfico de consumo de energia, local e período.</p>
+        </div>
+
+        <div id="barra">
+            <button id="botao">
+                <img src="~/img/logo/simb_filtro.jpg" />
+            </button>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="site.js"></script>
+        <script>iniciarGrafico();</script>
+    </div>
+</body>
+
+</html>
+
