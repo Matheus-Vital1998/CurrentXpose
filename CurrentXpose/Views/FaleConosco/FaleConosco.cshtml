@@ -1,31 +1,40 @@
-﻿@{
+﻿@model FaleConoscoViewModel
+
+@{
     ViewData["Title"] = "Fale Conosco";
 }
 
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/sistema/faleConosco.css">
-    <link rel="stylesheet" href="~/css/barra-lateral/lateral.css">
+    <link rel="stylesheet" href="~/css/lateral.css">
+    <title>Fale Conosco</title>
 </head>
+<body class="login-bg">
+    <div class="login-container">
+        <div class="open-btn" onclick="toggleSidebar()">☰</div>
+        @{
+            await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
+        }
+        <form class="login-form" method="post" asp-action="EnviarMensagem" asp-controller="FaleConosco" style="margin-bottom: 80px;">
+            <h1>Fale Conosco</h1>
+            <label for="Nome">Nome:</label>
+            <input type="text" asp-for="Nome" id="Nome" required>
 
-<body>
-    <div class="open-btn" onclick="toggleSidebar()">☰</div>
+            <label for="Email">Email:</label>
+            <input type="email" asp-for="Email" id="Email" required>
 
-    <!-- Incluindo a barra lateral -->
-    @{
-        await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
-    }
+            <label for="Mensagem">Mensagem:</label>
+            <textarea asp-for="Mensagem" id="Mensagem" rows="5" required></textarea>
 
-    <!-- Conteúdo da página principal -->
-    <div class="content">
-        <h2>Fale Conosco</h2>
-        <!-- Conteúdo da sua página aqui -->
+            <button type="submit" aria-label="Enviar Mensagem">Enviar mensagem</button>
+            <div class="text-center">
+                <a class="link" asp-action="Inicial" asp-controller="Morador">Voltar</a>
+            </div>
+        </form>
     </div>
 </body>
-
 </html>
-
