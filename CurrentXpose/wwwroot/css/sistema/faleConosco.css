@@ -9,7 +9,7 @@
 }
 
 .login-form {
-    max-width: 400px;
+    max-width: 550px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -84,7 +84,8 @@ link-container {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #2ddc2b, #fff); 
+    background-image: url("../../img/fundo-fale-conosco_resized.png");
+    background-size:cover
 }
 
 textarea {

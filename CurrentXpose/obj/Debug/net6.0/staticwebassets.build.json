@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b9u+RuX2p/YqS0P77Mk+YQyzfRWdZykuIO2Zv0EFDYM=",
+  "Hash": "lGYpt5JcVGo/nvzGcLfgAbcUKrDn6eUiJnIS5P6ul8c=",
   "Source": "CurrentXpose",
   "BasePath": "_content/CurrentXpose",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\sistema\\sobre.css"
+    },
+    {
+      "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\sistema\\sucesso.css",
+      "SourceId": "CurrentXpose",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\",
+      "BasePath": "_content/CurrentXpose",
+      "RelativePath": "css/sistema/sucesso.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sistema\\sucesso.css"
     },
     {
       "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\site.css",
