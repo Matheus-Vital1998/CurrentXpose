@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Tela inicial";
+    ViewData["Title"] = "Tela Inicial do Morador";
 }
 
 <!DOCTYPE html>
@@ -8,24 +8,108 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/morador/inicio-usuario.css">
+    <link rel="stylesheet" href="~/css/morador/inicio-morador.css">
     <link rel="stylesheet" href="~/css/lateral.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
     <div class="open-btn" onclick="toggleSidebar()">☰</div>
 
-    <!-- Incluindo a barra lateral -->
     @{
         await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
     }
 
-    <!-- Conteúdo da página principal -->
     <div class="content">
-        <h2>Seja bem-vindo!</h2>
-        <!-- Conteúdo da sua página aqui -->
+        <h3 style="color: #ff9800;">Seja bem-vindo, Morador!</h3>
+        <p>Acompanhe o seu consumo de energia em tempo real.</p><br />
+
+        <div id="graficoMorador">
+            <h3 style="color:#ff9800;">Seu Consumo de Energia</h3>
+            <canvas id="consumoMoradorChart" width="400" height="200"></canvas>
+        </div>
     </div>
+
+    <script>
+        function iniciarGraficoMorador() {
+            var datas = ['01/01/2023'];
+            var horas = ['12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'];
+            var potencias = [50, 55, 60, 62, 63, 63, 64];
+
+            var numMedicoesExibir = 7; 
+
+            var labelsExibir = datas.slice(-numMedicoesExibir);
+            var horasExibir = horas.slice(-numMedicoesExibir);
+            var potenciasExibir = potencias.slice(-numMedicoesExibir);
+
+            var config = {
+                type: 'line',
+                data: {
+                    labels: horasExibir,
+                    datasets: [{
+                        label: 'Seu Consumo de Energia',
+                        data: potenciasExibir,
+                        fill: false,
+                        borderColor: '#ff9800',
+                        backgroundColor: '#ff9800',
+                        pointRadius: 5,
+                        pointHoverRadius: 7,
+                        showLine: true,
+                        xAxisID: 'x-axis-1'
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: [{
+                            type: 'linear',
+                            position: 'bottom',
+                            id: 'x-axis-1',
+                            ticks: {
+                                callback: function (value, index, values) {
+                                    return labelsExibir[index] + ' ' + horasExibir[index];
+                                }
+                            }
+                        }],
+                        y: [{
+                            type: 'linear',
+                            position: 'left'
+                        }]
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function (context) {
+                                    var label = context.dataset.label || '';
+
+                                    if (label) {
+                                        label += ': ';
+                                    }
+
+                                    if (context.parsed.y !== null) {
+                                        label += context.parsed.y;
+
+                                        label += ' kW';
+                                    }
+
+                                    return label;
+                                }
+                            }
+                        }
+                    }
+                }
+            };
+
+            var ctx = document.getElementById('consumoMoradorChart').getContext('2d');
+            new Chart(ctx, config);
+        }
+
+        iniciarGraficoMorador();
+    </script>
 </body>
-
+<br />
+<br />
 </html>
-
