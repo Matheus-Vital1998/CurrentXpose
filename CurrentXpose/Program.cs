@@ -1,3 +1,5 @@
+using CurrentXpose.Domain.Interface;
+using CurrentXpose.Domain.Services;
 using CurrentXpose.Infra.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -7,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<CurrentXposeContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CurrentXpose"),
     builder => builder.MigrationsAssembly(typeof(CurrentXposeContext).Assembly.FullName)));
+
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
