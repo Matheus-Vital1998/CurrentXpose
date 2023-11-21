@@ -4,7 +4,12 @@ namespace CurrentXpose.Controllers
 {
     public class SindicoController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Sindico()
+        {
+            return View();
+        }
+
+        public IActionResult Historico()
         {
             return View();
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CTJq+vLTGTAyHepSetk1tHSFCANn36E4SxFfAhDWQTw=",
+  "Hash": "mWVAPfaW9IzXco97bZWmFQ7U3zAe1VG248uzymU47BU=",
   "Source": "CurrentXpose",
   "BasePath": "_content/CurrentXpose",
   "Mode": "Default",
@@ -187,6 +187,23 @@
       "OriginalItemSpec": "wwwroot\\css\\sistema\\sobre.css"
     },
     {
+      "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\sistema\\sucesso.css",
+      "SourceId": "CurrentXpose",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\",
+      "BasePath": "_content/CurrentXpose",
+      "RelativePath": "css/sistema/sucesso.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sistema\\sucesso.css"
+    },
+    {
       "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\css\\site.css",
       "SourceId": "CurrentXpose",
       "SourceType": "Discovered",
@@ -221,6 +238,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\fundo-fale-conosco_resized.png",
+      "SourceId": "CurrentXpose",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\",
+      "BasePath": "_content/CurrentXpose",
+      "RelativePath": "img/fundo-fale-conosco_resized.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fundo-fale-conosco_resized.png"
+    },
+    {
       "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\logo\\CurrentXpose.jpg",
       "SourceId": "CurrentXpose",
       "SourceType": "Discovered",
@@ -236,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo\\CurrentXpose.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\simb_filtro\\simb_filtro.jpg",
+      "SourceId": "CurrentXpose",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\",
+      "BasePath": "_content/CurrentXpose",
+      "RelativePath": "img/simb_filtro/simb_filtro.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\simb_filtro\\simb_filtro.jpg"
     },
     {
       "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\svg\\CurrentXpose.svg",

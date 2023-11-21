@@ -9,5 +9,9 @@ namespace CurrentXpose.Controllers
         {
             return View();
         }
+        public IActionResult EconomiaSindico()
+        {
+            return View();
+        }
     }
 }
