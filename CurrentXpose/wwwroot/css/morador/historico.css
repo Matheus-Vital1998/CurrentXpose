@@ -10,7 +10,7 @@
 #grafico {
     flex: 1;
     padding: 20px;
-    border-right: 1px solid #FDC119;
+    overflow: hidden;
 }
 
     #grafico h2 {
@@ -22,22 +22,57 @@
     padding: 20px;
 }
 
-#barra {
-    flex: 0 0 20px; /* Espessura horizontal de 20px */
-    background-color: #156D2E; /* Cor da barra lateral */
-    position: relative;
+.filtro-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
-#botao {
-    position: absolute;
-    top: 25px; /* 25px abaixo do topo da tela */
-    right: 5px; /* Espaçamento à direita */
-    padding: 0; /* Remova o preenchimento para que a imagem ocupe o espaço total */
-    border: none; /* Remova a borda do botão */
-    background: none; /* Remova o plano de fundo do botão */
+.filtro-label {
+    font-weight: bold;
 }
 
-    #botao img {
-        width: 40px; /* Largura da imagem */
-        height: 40px; /* Altura da imagem */
+.filtro-input,
+.filtro-button {
+    margin-right: 8px;
+}
+
+.filtro-input {
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.filtro-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.filtro-expandir {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease; 
+    margin-left: 90%;
+}
+
+    .filtro-button:hover {
+        background-color: #45a049; 
     }

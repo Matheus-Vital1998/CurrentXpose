@@ -1,4 +1,6 @@
-﻿@{
+﻿@model CurrentXpose.Models.FiltrosViewModel
+
+@{
     ViewData["Title"] = "Tela de Historico";
 }
 
@@ -15,33 +17,45 @@
 <body>
     <div class="open-btn" onclick="toggleSidebar()">☰</div>
 
-    <!-- Incluindo a barra lateral -->
     @{
         await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
     }
 
-    <!-- Conteúdo da página principal -->
     <div class="content">
+        <button class="filtro-expandir" id="toggleFilter" onclick="toggleFilterVisibility()">Expandir filtro</button>
+
+        <div class="filtro-container" id="filtroContainer" style="display: none;">
+            <form asp-controller="Morador" asp-action="Historico" method="get">
+                <label class="filtro-label" for="dataInicio">Data Início:</label>
+                <input class="filtro-input" type="date" asp-for="DataInicio">
+
+                <label class="filtro-label" for="dataFim">Data Fim:</label>
+                <input class="filtro-input" type="date" asp-for="DataFim">
+
+                <button class="filtro-button" type="submit">Pesquisar</button>
+            </form>
+        </div>
+
         <div id="grafico">
             <h2>Consumo de Energia</h2>
-            <canvas id="hitoricoMoradorChart" width="400" height="200"></canvas>
+            <canvas id="historicoMoradorChart" width="400" height="200"></canvas>
         </div>
 
         <div id="descricao">
             <p>Descrição do gráfico de consumo de energia, local e período.</p>
         </div>
 
-        <div id="barra">
-            <button id="botao">
-                <img src="~/img/logo/simb_filtro.jpg" />
-            </button>
-        </div>
-
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="site.js"></script>
-        <script>iniciarGrafico();</script>
+        <script>
+            iniciarGrafico();
+
+            function toggleFilterVisibility() {
+                var filtroContainer = document.getElementById("filtroContainer");
+                filtroContainer.style.display = (filtroContainer.style.display === "none") ? "flex" : "none";
+            }
+        </script>
     </div>
 </body>
 
 </html>
-

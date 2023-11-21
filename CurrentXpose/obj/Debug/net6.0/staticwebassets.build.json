@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lGYpt5JcVGo/nvzGcLfgAbcUKrDn6eUiJnIS5P6ul8c=",
+  "Hash": "mWVAPfaW9IzXco97bZWmFQ7U3zAe1VG248uzymU47BU=",
   "Source": "CurrentXpose",
   "BasePath": "_content/CurrentXpose",
   "Mode": "Default",
@@ -236,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\fundo-fale-conosco_resized.png",
+      "SourceId": "CurrentXpose",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\",
+      "BasePath": "_content/CurrentXpose",
+      "RelativePath": "img/fundo-fale-conosco_resized.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fundo-fale-conosco_resized.png"
     },
     {
       "Identity": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\logo\\CurrentXpose.jpg",

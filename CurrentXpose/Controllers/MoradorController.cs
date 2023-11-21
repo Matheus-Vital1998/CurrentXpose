@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using CurrentXpose.Models; 
 using Microsoft.AspNetCore.Mvc;
 
 namespace CurrentXpose.Controllers
@@ -10,9 +10,10 @@ namespace CurrentXpose.Controllers
             return View();
         }
 
-        public IActionResult Historico()
+        [HttpGet]
+        public IActionResult Historico(FiltrosViewModel filtros)
         {
-            return View();
+            return View(filtros);
         }
     }
 }

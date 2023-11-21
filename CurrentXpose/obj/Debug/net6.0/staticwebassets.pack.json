@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\fundo-fale-conosco_resized.png",
+      "PackagePath": "staticwebassets\\img\\fundo-fale-conosco_resized.png"
+    },
+    {
       "Id": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\wwwroot\\img\\logo\\CurrentXpose.jpg",
       "PackagePath": "staticwebassets\\img\\logo\\CurrentXpose.jpg"
     },

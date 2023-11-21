@@ -1,6 +1,6 @@
 ﻿body {
     font-family: Arial, sans-serif;
-    background-color: #fff; /* Alterado para branco */
+    background-color: #fff; 
     margin: 0;
 }
 
@@ -84,8 +84,8 @@ link-container {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("../../img/fundo-fale-conosco_resized.png");
-    background-size:cover
+    background: linear-gradient(to bottom, #4caf50, #FFFFFF);
+    background-size: cover
 }
 
 textarea {
