@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CurrentXpose.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CurrentXpose.Controllers
 {
@@ -11,7 +12,8 @@ namespace CurrentXpose.Controllers
 
         public IActionResult Historico()
         {
-            return View();
+            var filtroViewModel = new FiltrosViewModel();
+            return View(filtroViewModel);
         }
     }
 }
