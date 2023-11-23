@@ -10,19 +10,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/sistema/sobre.css">
     <link rel="stylesheet" href="~/css/barra-lateral/lateral.css">
+    
 </head>
 
 <body>
     <div class="open-btn" onclick="toggleSidebar()">☰</div>
 
+    <!-- Incluindo a barra lateral -->
     @{
-        await Html.RenderPartialAsync("~/Views/BarraLateral/LateralSindico.cshtml");
+        await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
     }
 
+    <!-- Conteúdo da página principal -->
     <div class="content">
-        <h2>Sobre</h2>
+        <h2>Sobre o Projeto de Eficiência Energética</h2>
+        <p>Bem-vindo ao nosso projeto de eficiência energética! Estamos comprometidos em proporcionar uma transformação positiva na gestão de energia elétrica em nosso condomínio, visando não apenas a redução de gastos, mas também a promoção de uma consciência sustentável.</p>
+
+        <h3>Objetivo do Projeto:</h3>
+        <p>Nosso principal objetivo é capacitar os moradores a compreenderem e controlarem seus gastos de energia elétrica de maneira eficiente. A instalação de leitores individuais em cada apartamento permite um monitoramento preciso, oferecendo insights valiosos sobre padrões de consumo e áreas de oportunidade para economia.</p>
+        
+        <h3>Benefícios para os Moradores:</h3>
+        <p>Ao ter acesso fácil às informações detalhadas sobre o consumo de energia, os moradores podem tomar decisões informadas sobre como otimizar o uso elétrico em seus lares. A transparência proporcionada pelo sistema fortalece a conscientização sobre a importância da economia de energia e seu impacto positivo no meio ambiente.</p>
+
+        <h3>Ferramentas de Conscientização:</h3>
+        <p>Além do monitoramento individual, nosso site oferece recursos educativos e dicas práticas para ajudar os moradores a adotarem práticas mais sustentáveis. Queremos ser uma fonte confiável de informações sobre eficiência energética, capacitando a comunidade a agir de maneira mais consciente no uso da energia elétrica.</p>
+
+        <h3>Colaboração Síndico e Moradores:</h3>
+        <p>Encorajamos a participação ativa do síndico e dos moradores nesse esforço coletivo. A colaboração é fundamental para alcançarmos resultados significativos. Juntos, podemos criar um ambiente mais sustentável, reduzir os custos com energia elétrica e contribuir para um futuro mais verde.</p>
+        
+        <p>Este projeto reflete nosso compromisso em promover uma comunidade mais consciente, responsável e economicamente eficiente. Agradecemos por fazer parte dessa iniciativa e por sua contribuição para um futuro mais sustentável!</p>
     </div>
+
 </body>
 
 </html>
-
