@@ -1,11 +1,28 @@
-﻿body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #ffffff;
+    background-color: #f4f4f4;
+}
+
+.open-btn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.content {
+    margin: 20px;
 }
 
 h2 {
-    text-align: center;
-    padding-top: 10%;
+    color: #333;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
 }
