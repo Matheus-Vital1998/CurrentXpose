@@ -1,3 +1,5 @@
+using CurrentXpose.ApiService;
+using CurrentXpose.ApiService.Interfaces;
 using CurrentXpose.Domain.Interface;
 using CurrentXpose.Domain.Services;
 using CurrentXpose.Infra.Context;
@@ -11,6 +13,10 @@ builder.Services.AddDbContext<CurrentXposeContext>(options =>
     builder => builder.MigrationsAssembly(typeof(CurrentXposeContext).Assembly.FullName)));
 
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddHttpClient<IAuthApiService, AuthApiService>(http =>
+{
+    http.BaseAddress = new Uri(builder.Configuration["Api:baseUrl"]);
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

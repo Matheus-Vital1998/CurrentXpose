@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Tela Inicial do Morador";
+    ViewData["Title"] = "Tela inicial Morador";
 }
 
 <!DOCTYPE html>
@@ -8,35 +8,35 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/morador/inicio-morador.css">
+    <link rel="stylesheet" href="~/css/morador/inicio-usuario.css">
     <link rel="stylesheet" href="~/css/lateral.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
-    <div class="open-btn" onclick="toggleSidebar()">☰</div>
+    <div class="open-btn" style="color:#4caf50;" onclick="toggleSidebar()">☰</div>
 
     @{
         await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
     }
 
     <div class="content">
-        <h3 style="color: #ff9800;">Seja bem-vindo, Morador!</h3>
-        <p>Acompanhe o seu consumo de energia em tempo real.</p><br />
+        <h2 style="color:#156D2E;">Seja bem-vindo, Morador!</h2>
+        <p>CurrentXpose é a sua plataforma para monitoramento em tempo real do seu consumo de energia.</p><br />
 
-        <div id="graficoMorador">
-            <h3 style="color:#ff9800;">Seu Consumo de Energia</h3>
-            <canvas id="consumoMoradorChart" width="400" height="200"></canvas>
+        <div id="grafico">
+            <h2 style="color:#156D2E;">Consumo de Energia</h2>
+            <canvas id="consumoCondominioChart" width="400" height="200"></canvas>
         </div>
     </div>
 
     <script>
-        function iniciarGraficoMorador() {
+        function iniciarGrafico() {
             var datas = ['01/01/2023'];
             var horas = ['12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'];
-            var potencias = [50, 55, 60, 62, 63, 63, 64];
+            var potencias = [100, 105, 110, 112, 113, 113, 114];
 
-            var numMedicoesExibir = 7; 
+            var numMedicoesExibir = 7;
 
             var labelsExibir = datas.slice(-numMedicoesExibir);
             var horasExibir = horas.slice(-numMedicoesExibir);
@@ -47,11 +47,11 @@
                 data: {
                     labels: horasExibir,
                     datasets: [{
-                        label: 'Seu Consumo de Energia',
+                        label: 'Potência - ' + labelsExibir[0],
                         data: potenciasExibir,
                         fill: false,
-                        borderColor: '#ff9800',
-                        backgroundColor: '#ff9800',
+                        borderColor: '#2196f3',
+                        backgroundColor: '#2196f3',
                         pointRadius: 5,
                         pointHoverRadius: 7,
                         showLine: true,
@@ -103,13 +103,12 @@
                 }
             };
 
-            var ctx = document.getElementById('consumoMoradorChart').getContext('2d');
+            var ctx = document.getElementById('consumoCondominioChart').getContext('2d');
             new Chart(ctx, config);
         }
 
-        iniciarGraficoMorador();
+        iniciarGrafico();
     </script>
 </body>
-<br />
-<br />
+
 </html>
