@@ -7,9 +7,10 @@
 
 <body>
     <div class="sidebar" id="mySidebar">
-        <div class="close-btn" onclick="toggleSidebar()">×</div>
+        <div class="close-btn" style="color:#156D2E;" onclick="toggleSidebar()">x</div>
         <img src="~/img/logo/CurrentXpose.jpg" />
         <ul>
+            <li><a asp-controller="Morador" asp-action="Inicial">Inicio</a></li>
             <li><a asp-controller="Morador" asp-action="Historico">Historico</a></li>
             <li><a asp-controller="Economia" asp-action="Economia">Como economizar?</a></li>
             <li><a asp-controller="FaleConosco" asp-action="FaleConosco">Fale Conosco</a></li>
@@ -17,13 +18,13 @@
         </ul>
         <a class="logout" asp-controller="Login" asp-action="Login">Logout</a>
     </div>
+
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("mySidebar");
+            sidebar.classList.toggle("open");
+        }
+    </script>
 </body>
 
 </html>
-
-<script>
-    function toggleSidebar() {
-        var sidebar = document.getElementById("mySidebar");
-        sidebar.classList.toggle("open");
-    }
-</script>

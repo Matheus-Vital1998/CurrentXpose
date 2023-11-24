@@ -7,9 +7,10 @@
 
 <body>
     <div class="sidebar" id="mySidebar">
-        <div class="close-btn" onclick="toggleSidebar()">×</div>
+        <div class="close-btn" style="color:#156D2E;" onclick="toggleSidebar()">x</div>
         <img src="~/img/logo/CurrentXpose.jpg" />
         <ul>
+            <li><a asp-controller="Sindico" asp-action="Sindico">Inicio</a></li>
             <li><a asp-controller="Sindico" asp-action="Historico">Histórico</a></li>
             <li><a asp-controller="Economia" asp-action="EconomiaSindico">Como economizar?</a></li>
             <li><a asp-controller="Sobre" asp-action="SobreSindico">Sobre</a></li>

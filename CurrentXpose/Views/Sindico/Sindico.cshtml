@@ -14,18 +14,18 @@
 </head>
 
 <body>
-    <div class="open-btn" onclick="toggleSidebar()">☰</div>
+    <div class="open-btn" style="color:#4caf50;" onclick="toggleSidebar()">☰</div>
 
     @{
         await Html.RenderPartialAsync("~/Views/BarraLateral/LateralSindico.cshtml");
     }
 
     <div class="content">
-        <h2>Seja bem-vindo, Sindico!</h2>
+        <h2 style="color:#156D2E;">Seja bem-vindo, Sindico!</h2>
         <p>CurrentXpose é a sua plataforma para monitoramento em tempo real do consumo de energia no condomínio.</p><br />
 
         <div id="grafico">
-            <h2>Consumo de Energia</h2>
+            <h2 style="color:#156D2E;">Consumo de Energia</h2>
             <canvas id="consumoCondominioChart" width="400" height="200"></canvas>
         </div>
     </div>
