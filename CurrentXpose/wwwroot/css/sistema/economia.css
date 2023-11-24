@@ -1,11 +1,40 @@
-﻿body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #ffffff;
+    background-color: #f4f4f4;
+}
+
+.open-btn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.content {
+    margin: 20px;
 }
 
 h2 {
-    text-align: center;
-    padding-top: 10%;
+    color: #333;
+}
+
+.post {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    color: #333;
+}
+
+.post p {
+    color: #555;
+    line-height: 1.6;
 }
