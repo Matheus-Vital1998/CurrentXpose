@@ -1,40 +1,87 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #156D2E;
 }
 
 .open-btn {
     font-size: 20px;
     cursor: pointer;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
+    color: #4caf50;
+    margin-left: 20px;
 }
 
 .content {
     margin: 20px;
 }
 
-h2 {
-    color: #333;
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-.post {
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidebar .close-btn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(33.333% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 30px;
 }
 
-.post h3 {
-    color: #333;
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+.card-header {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
 }
 
-.post p {
-    color: #555;
-    line-height: 1.6;
+.card-body {
+    padding: 16px;
+    font-size: 16px;
 }

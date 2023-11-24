@@ -10,81 +10,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/sistema/economia.css">
     <link rel="stylesheet" href="~/css/barra-lateral/lateral.css">
-    
+
 </head>
 
 <body>
     <div class="open-btn" onclick="toggleSidebar()">☰</div>
 
-    <!-- Incluindo a barra lateral -->
     @{
         await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
     }
 
-    <!-- Conteúdo da página principal -->
     <div class="content">
-        <h2>Veja como economizar</h2>
+        <h2>Veja como economizar</h2><br />
 
-        <!-- Post 1 -->
-        <div class="post">
-            <h3>Iluminação Eficiente</h3>
-            <p>Troque lâmpadas incandescentes por LEDs. Elas consomem menos energia e têm uma vida útil mais longa.</p>
+        <div class="post-container">
+            <div class="card">
+                <div class="card-header">Iluminação Eficiente</div>
+                <div class="card-body">
+                    Troque lâmpadas incandescentes por LEDs. Elas consomem menos energia e têm uma vida útil mais longa.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Desconecte Dispositivos em Standby</div>
+                <div class="card-body">
+                    Mesmo em standby, muitos aparelhos consomem energia. Desconectar dispositivos quando não estiverem em uso pode resultar em economia significativa.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Uso Consciente de Eletrônicos</div>
+                <div class="card-body">
+                    Evite deixar eletrônicos carregando durante a noite. Desconectar carregadores e desligar dispositivos quando totalmente carregados ajuda a economizar energia.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Aproveite a Luz Natural</div>
+                <div class="card-body">
+                    Mantenha cortinas abertas durante o dia para aproveitar a luz natural. Isso reduzirá a necessidade de iluminação artificial.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Manutenção de Equipamentos</div>
+                <div class="card-body">
+                    Certifique-se de que eletrodomésticos e sistemas de aquecimento/refrigeração estejam bem mantidos. Equipamentos eficientes consomem menos energia.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Eletrodomésticos Energéticos</div>
+                <div class="card-body">
+                    Ao substituir eletrodomésticos, opte por modelos energeticamente eficientes, identificados com etiquetas de eficiência energética.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Coleta Seletiva</div>
+                <div class="card-body">
+                    Pratique a coleta seletiva de lixo. Reciclar materiais reduz a necessidade de produção a partir de recursos naturais.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Aquecimento e Arrefecimento Eficientes</div>
+                <div class="card-body">
+                    Regule termostatos para economizar energia. Isolar janelas e portas também ajuda a manter a temperatura interna.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Reduza o Consumo de Água Quente</div>
+                <div class="card-body">
+                    Aquecer água consome energia. Use água quente de forma consciente e considere a instalação de aquecedores solares.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Invista em Energia Renovável</div>
+                <div class="card-body">
+                    Explore opções de energia renovável, como painéis solares. Além de economizar, você contribui para um futuro mais sustentável.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Desligue Dispositivos Não Utilizados</div>
+                <div class="card-body">
+                    Desligue dispositivos eletrônicos quando não estiverem em uso. Isso evita o consumo desnecessário de energia.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Monitoramento do Consumo</div>
+                <div class="card-body">
+                    Utilize dispositivos de monitoramento para acompanhar o consumo de energia em tempo real. Isso ajuda a identificar áreas de alto consumo.
+                </div>
+            </div>
+
         </div>
-
-        <!-- Post 2 -->
-        <div class="post">
-            <h3>Desconecte Dispositivos em Standby</h3>
-            <p>Mesmo em standby, muitos aparelhos consomem energia. Desconectar dispositivos quando não estiverem em uso pode resultar em economia significativa.</p>
-        </div>
-
-        <!-- Post 3 -->
-        <div class="post">
-            <h3>Uso Consciente de Eletrônicos</h3>
-            <p>Evite deixar eletrônicos carregando durante a noite. Desconectar carregadores e desligar dispositivos quando totalmente carregados ajuda a economizar energia.</p>
-        </div>
-
-        <!-- Post 4 -->
-        <div class="post">
-            <h3>Aproveite a Luz Natural</h3>
-            <p>Mantenha cortinas abertas durante o dia para aproveitar a luz natural. Isso reduzirá a necessidade de iluminação artificial.</p>
-        </div>
-
-        <!-- Post 5 -->
-        <div class="post">
-            <h3>Manutenção de Equipamentos</h3>
-            <p>Certifique-se de que eletrodomésticos e sistemas de aquecimento/refrigeração estejam bem mantidos. Equipamentos eficientes consomem menos energia.</p>
-        </div>
-
-        <!-- Post 6 -->
-        <div class="post">
-            <h3>Eletrodomésticos Energéticos</h3>
-            <p>Ao substituir eletrodomésticos, opte por modelos energeticamente eficientes, identificados com etiquetas de eficiência energética.</p>
-        </div>
-
-        <!-- Post 7 -->
-        <div class="post">
-            <h3>Coleta Seletiva</h3>
-            <p>Pratique a coleta seletiva de lixo. Reciclar materiais reduz a necessidade de produção a partir de recursos naturais.</p>
-        </div>
-
-        <!-- Post 8 -->
-        <div class="post">
-            <h3>Aquecimento e Arrefecimento Eficientes</h3>
-            <p>Regule termostatos para economizar energia. Isolar janelas e portas também ajuda a manter a temperatura interna.</p>
-        </div>
-
-        <!-- Post 9 -->
-        <div class="post">
-            <h3>Reduza o Consumo de Água Quente</h3>
-            <p>Aquecer água consome energia. Use água quente de forma consciente e considere a instalação de aquecedores solares.</p>
-        </div>
-
-        <!-- Post 10 -->
-        <div class="post">
-            <h3>Invista em Energia Renovável</h3>
-            <p>Explore opções de energia renovável, como painéis solares. Além de economizar, você contribui para um futuro mais sustentável.</p>
-        </div>
-
     </div>
 
 </body>
