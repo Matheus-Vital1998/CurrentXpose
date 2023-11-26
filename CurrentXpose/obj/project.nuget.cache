@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6MTefs6r2HDsQ0/7YaOCYaS428lmnbF+Z4AUQMogD6szJ8OWaIcDGLF03aOHfEPuVvDm8km5JALC+n9cBjnFyQ==",
+  "dgSpecHash": "6g55eZFH4Depj5UOn1HtFuZYapv6xETWFkfGzlyQW57kAS+ydjvVgU6jxen/LDpVi5LBh0wSWbYFIkZhpMo8ig==",
   "success": true,
   "projectFilePath": "C:\\Users\\FH185\\Documents\\Ternomecanica\\Projeto interdisciplinar\\CurrentXpose\\CurrentXpose\\CurrentXpose.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FH185\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\FH185\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\FH185\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\FH185\\.nuget\\packages\\identitymodel\\6.2.0\\identitymodel.6.2.0.nupkg.sha512",
     "C:\\Users\\FH185\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\FH185\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

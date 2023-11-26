@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CurrentXpose.Controllers
 {
+    [Authorize]
     public class FaleConoscoController : Controller
     {
         private readonly IEmailService _emailService;

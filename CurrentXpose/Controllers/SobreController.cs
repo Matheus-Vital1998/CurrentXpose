@@ -6,6 +6,7 @@ using System.Diagnostics;
 
 namespace CurrentXpose.Controllers
 {
+    [Authorize]
     public class SobreController : Controller
     {
         public IActionResult Sobre()

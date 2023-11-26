@@ -2,6 +2,6 @@
 {
     public interface IAuthApiService
     {
-        Task <object> Autenticar(string username, string password);
+        Task <object> Autenticar(string username, string password, string usertype);
     }
 }
