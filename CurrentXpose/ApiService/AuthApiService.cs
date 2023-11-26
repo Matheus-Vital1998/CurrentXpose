@@ -13,11 +13,33 @@ namespace CurrentXpose.ApiService
             _httpClient = httpClient;
         }
 
-        public async Task<object> Autenticar(string username, string password)
+        public async Task<object> Autenticar(string username, string password, string userType)
         {
-            var response = await _httpClient.PostAsync($"Auth?username={username}&password={password}", null);
+            try
+            {
+                var endpoint = userType.ToLower() == "morador" ? "Auth/morador" : "Auth/sindico";
+                var response = await _httpClient.PostAsync($"{endpoint}?username={username}&password={password}", null);
 
-            return response.Content.ReadAsStringAsync();
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+
+                    if (!string.IsNullOrEmpty(content))
+                    {
+                        return JsonConvert.DeserializeObject<object>(content);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"Erro na chamada da API. Código de status: {response.StatusCode}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro na chamada da API: {ex.Message}");
+            }
+
+            return null;
         }
     }
 }

@@ -1,8 +1,10 @@
-﻿using CurrentXpose.Models; 
+﻿using CurrentXpose.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CurrentXpose.Controllers
 {
+    [Authorize]
     public class MoradorController : Controller
     {
         public IActionResult Inicial()
