@@ -21,37 +21,64 @@
     }
 
     <div class="content">
-        <h2 style="color:#156D2E;">Seja bem-vindo, Morador!</h2>
-        <p>CurrentXpose é a sua plataforma para monitoramento em tempo real do seu consumo de energia.</p><br />
+        <h2 style="color:#156D2E;">Seja bem-vindo, Morador </h2>
+        <p id="ultimoConsumo">Seu último consumo medido foi de: R$ 0.00</p><br />
 
         <div id="grafico">
             <h2 style="color:#156D2E;">Consumo de Energia</h2>
+            <label for="bandeiraCheckbox">Selecione a bandeira tarifária:</label>
+            <select id="bandeiraCheckbox" onchange="atualizarGrafico()">
+                <option value="verde">Verde</option>
+                <option value="amarela">Amarela</option>
+                <option value="vermelha">Vermelha</option>
+            </select>
             <canvas id="consumoCondominioChart" width="400" height="200"></canvas>
         </div>
     </div>
 
     <script>
-        function iniciarGrafico() {
-            var datas = ['01/01/2023'];
-            var horas = ['12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'];
-            var potencias = [100, 105, 110, 112, 113, 113, 114];
+        function converterKwhParaReal(kwh, bandeira) {
+            switch (bandeira) {
+                case 'verde':
+                    return kwh * 0.5;
+                case 'amarela':
+                    return kwh * 0.7;
+                case 'vermelha':
+                    return kwh * 1.0;
+                default:
+                    return kwh;
+            }
+        }
 
-            var numMedicoesExibir = 7;
+        function atualizarGrafico() {
+            var datas = ['27/11/2023'];
+            var horas = ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '18:00',];
+            var potencias = [55, 55, 56, 57, 57.5, 58, 58.4, 58.8, 59, 59.5];
+
+            var bandeira = document.getElementById('bandeiraCheckbox').value;
+            var potenciasEmReais = potencias.map(function (potencia) {
+                return converterKwhParaReal(potencia, bandeira);
+            });
+
+            var ultimoConsumo = potenciasEmReais[potenciasEmReais.length - 1].toFixed(2);
+            document.getElementById('ultimoConsumo').innerText = "Seu último consumo medido foi de: R$ " + ultimoConsumo;
+
+            var numMedicoesExibir = potencias.length;
 
             var labelsExibir = datas.slice(-numMedicoesExibir);
             var horasExibir = horas.slice(-numMedicoesExibir);
-            var potenciasExibir = potencias.slice(-numMedicoesExibir);
+            var potenciasExibir = potenciasEmReais.slice(-numMedicoesExibir);
 
             var config = {
                 type: 'line',
                 data: {
                     labels: horasExibir,
                     datasets: [{
-                        label: 'Potência - ' + labelsExibir[0],
+                        label: 'Custo - ' + labelsExibir[0],
                         data: potenciasExibir,
                         fill: false,
-                        borderColor: '#2196f3',
-                        backgroundColor: '#2196f3',
+                        borderColor: '#ffa500',
+                        backgroundColor: '#ffa500',
                         pointRadius: 5,
                         pointHoverRadius: 7,
                         showLine: true,
@@ -80,23 +107,23 @@
                             display: true,
                             position: 'top'
                         },
-                        tooltip: {
-                            callbacks: {
-                                label: function (context) {
-                                    var label = context.dataset.label || '';
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function (context) {
+                                var label = context.dataset.label || '';
+                                var potencia = potencias[context.dataIndex];
+                                var custo = potenciasEmReais[context.dataIndex].toFixed(2);
 
-                                    if (label) {
-                                        label += ': ';
-                                    }
-
-                                    if (context.parsed.y !== null) {
-                                        label += context.parsed.y;
-
-                                        label += ' kW';
-                                    }
-
-                                    return label;
+                                if (label) {
+                                    label += ': ';
                                 }
+
+                                if (context.parsed.y !== null) {
+                                    label += 'Potência: ' + potencia + ' kW | Custo: R$ ' + custo;
+                                }
+
+                                return label;
                             }
                         }
                     }
@@ -107,7 +134,7 @@
             new Chart(ctx, config);
         }
 
-        iniciarGrafico();
+        atualizarGrafico();
     </script>
 </body>
 

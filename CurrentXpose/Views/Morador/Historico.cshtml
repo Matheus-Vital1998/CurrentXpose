@@ -1,7 +1,5 @@
-﻿@model CurrentXpose.Models.FiltrosViewModel
-
-@{
-    ViewData["Title"] = "Tela de Historico";
+﻿@{
+    ViewData["Title"] = "Tela Historico Morador";
 }
 
 <!DOCTYPE html>
@@ -10,52 +8,171 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/morador/historico.css">
-    <link rel="stylesheet" href="~/css/barra-lateral/lateral.css">
+    <link rel="stylesheet" href="~/css/morador/inicio-usuario.css">
+    <link rel="stylesheet" href="~/css/lateral.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
-    <div class="open-btn" onclick="toggleSidebar()">☰</div>
+    <div class="open-btn" style="color:#4caf50;" onclick="toggleSidebar()">☰</div>
 
     @{
         await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
     }
 
     <div class="content">
-        <button class="filtro-expandir" id="toggleFilter" onclick="toggleFilterVisibility()">Expandir filtro</button>
-
-        <div class="filtro-container" id="filtroContainer" style="display: none;">
-            <form asp-controller="Morador" asp-action="Historico" method="get">
-                <label class="filtro-label" for="dataInicio">Data Início:</label>
-                <input class="filtro-input" type="date" asp-for="DataInicio">
-
-                <label class="filtro-label" for="dataFim">Data Fim:</label>
-                <input class="filtro-input" type="date" asp-for="DataFim">
-
-                <button class="filtro-button" type="submit">Pesquisar</button>
-            </form>
-        </div>
-
         <div id="grafico">
-            <h2>Consumo de Energia</h2>
-            <canvas id="historicoMoradorChart" width="400" height="200"></canvas>
+            <h2 style="color:#156D2E;">Histórico do Consumo de Energia</h2>
+            <br />
+            <label for="dataSelecionada">Selecione a data:</label>
+            <select id="dataSelecionada" onchange="atualizarGrafico()">
+                <option value="17/11/2023">17/11/2023</option>
+                <option value="18/11/2023">18/11/2023</option>
+                <option value="19/11/2023">19/11/2023</option>
+                <option value="20/11/2023">20/11/2023</option>
+                <option value="21/11/2023">21/11/2023</option>
+                <option value="22/11/2023">22/11/2023</option>
+                <option value="23/11/2023">23/11/2023</option>
+                <option value="24/11/2023">24/11/2023</option>
+                <option value="25/11/2023">25/11/2023</option>
+                <option value="27/11/2023">27/11/2023</option>
+            </select>
+            <br />
+            <br />
+            <canvas id="consumoCondominioChart" width="800" height="400"></canvas>
         </div>
-
-        <div id="descricao">
-            <p>Descrição do gráfico de consumo de energia, local e período.</p>
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="site.js"></script>
-        <script>
-            iniciarGrafico();
-
-            function toggleFilterVisibility() {
-                var filtroContainer = document.getElementById("filtroContainer");
-                filtroContainer.style.display = (filtroContainer.style.display === "none") ? "flex" : "none";
-            }
-        </script>
     </div>
+
+    <script>
+        function converterKwhParaReal(kwh, bandeira) {
+            switch (bandeira) {
+                case 'verde':
+                    return kwh * 0.5;
+                case 'amarela':
+                    return kwh * 0.7;
+                case 'vermelha':
+                    return kwh * 1.0;
+                default:
+                    return kwh;
+            }
+        }
+
+        function atualizarGrafico() {
+            var ctx = document.getElementById('consumoCondominioChart').getContext('2d');
+
+            var dataSelecionada = document.getElementById('dataSelecionada').value;
+
+            var datas = ['17/11/2023', '18/11/2023', '19/11/2023', '20/11/2023', '21/11/2023', '22/11/2023', '23/11/2023', '24/11/2023', '25/11/2023', '27/11/2023'];
+            var horas = ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00'];
+
+            var potencias = [
+                [32, 33, 34, 35, 35.5, 36, 36.4, 36.8, 37, 37.5],
+                [34, 35, 36, 37, 37.5, 38, 38.4, 38.8, 39, 39.5],
+                [36, 37, 38, 39, 39.5, 40, 40.4, 40.8, 41, 41.5],
+                [37, 38, 39, 40, 40.5, 41, 41.4, 41.8, 42, 42.5],
+                [38, 39, 40, 41, 41.5, 42, 42.4, 42.8, 43, 43.5],
+                [40, 41, 42, 43, 43.5, 44, 44.4, 44.8, 45, 45.5],
+                [41, 42, 43, 44, 44.5, 45, 45.4, 45.8, 46, 46.5],
+                [43, 44, 45, 46, 46.5, 47, 47.4, 47.8, 48, 48.5],
+                [45, 45, 46, 47, 47.5, 48, 48.4, 48.8, 49, 49.5],
+                [55, 55, 56, 57, 57.5, 58, 58.4, 58.8, 59, 59.5]
+            ];
+
+            var bandeira = 'verde';
+            var potenciasEmReais = potencias.map(function (medicoes) {
+                return medicoes.map(function (potencia) {
+                    return converterKwhParaReal(potencia, bandeira);
+                });
+            });
+
+            var indexDataSelecionada = datas.indexOf(dataSelecionada);
+
+            if (indexDataSelecionada === -1) {
+                console.error('Data selecionada não encontrada:', dataSelecionada);
+                return;
+            }
+
+            var numMedicoesExibir = potencias[0].length;
+
+            var labelsExibir = horas.slice(-numMedicoesExibir);
+
+            var datasets = [{
+                label: 'Custo - ' + dataSelecionada,
+                data: potenciasEmReais[indexDataSelecionada].slice(-numMedicoesExibir),
+                fill: false,
+                borderColor: '#ffa500',
+                backgroundColor: '#ffa500',
+                pointRadius: 5,
+                pointHoverRadius: 7,
+                showLine: true,
+                xAxisID: 'x-axis-1'
+            }];
+
+            var config = {
+                type: 'line',
+                data: {
+                    labels: labelsExibir,
+                    datasets: datasets
+                },
+                options: {
+                    scales: {
+                        x: [{
+                            type: 'linear',
+                            position: 'bottom',
+                            id: 'x-axis-1',
+                            ticks: {
+                                callback: function (value, index, values) {
+                                    return labelsExibir[index];
+                                }
+                            }
+                        }],
+                        y: [{
+                            type: 'linear',
+                            position: 'left',
+                            ticks: {
+                                callback: function (value, index, values) {
+                                    return potencias[indexDataSelecionada][index].toFixed(2) + ' kWh - R$ ' + value.toFixed(2);
+                                }
+                            }
+                        }]
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function (context) {
+                                var label = context.dataset.label || '';
+                                var potencia = potencias[indexDataSelecionada][context.dataIndex];
+                                var custo = potenciasEmReais[indexDataSelecionada][context.dataIndex].toFixed(2);
+
+                                if (label) {
+                                    label += ': ';
+                                }
+
+                                if (context.parsed.y !== null) {
+                                    label += 'Potência: ' + potencia.toFixed(2) + ' kWh | Custo: R$ ' + custo;
+                                }
+
+                                return label;
+                            }
+                        }
+                    }
+                }
+            };
+
+            if (window.graficoConsumo) {
+                window.graficoConsumo.destroy();
+            }
+
+            window.graficoConsumo = new Chart(ctx, config);
+        }
+
+        atualizarGrafico();
+    </script>
 </body>
 
 </html>
