@@ -5,6 +5,7 @@
     color: #156D2E;
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column; /* Alteração para empilhar os elementos em dispositivos pequenos */
 }
 
 .open-btn {
@@ -15,7 +16,6 @@
 }
 
 #grafico {
-    flex: 1;
     padding: 20px;
     overflow: hidden;
 }
@@ -25,7 +25,6 @@
     }
 
 #descricao {
-    flex: 1;
     padding: 20px;
 }
 
@@ -36,6 +35,7 @@
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
+    flex-wrap: wrap; /* Permite que os itens se ajustem em uma nova linha em telas menores */
     align-items: center;
     overflow: hidden;
 }
@@ -46,7 +46,8 @@
 
 .filtro-input,
 .filtro-button {
-    margin-right: 8px;
+    margin-bottom: 8px; /* Adaptação para melhor espaçamento em telas menores */
+    width: 100%; /* Faz os elementos ocuparem a largura total em telas menores */
 }
 
 .filtro-input {
@@ -55,6 +56,11 @@
     border: 2px solid #ccc;
     border-radius: 6px;
     font-size: 16px;
+}
+
+.filtro-button,
+.filtro-expandir {
+    width: 100%; /* Faz os elementos ocuparem a largura total em telas menores */
 }
 
 .filtro-button {
@@ -76,10 +82,16 @@
     border-radius: 6px;
     cursor: pointer;
     font-size: 12px;
-    transition: background-color 0.3s ease; 
-    margin-left: 90%;
+    transition: background-color 0.3s ease;
 }
 
-    .filtro-button:hover {
-        background-color: #45a049; 
+.filtro-button:hover {
+    background-color: #45a049;
+}
+
+/* Adicionando regras de mídia para tornar a tela responsiva */
+@media screen and (max-width: 768px) {
+    .filtro-container {
+        flex-direction: column;
     }
+}

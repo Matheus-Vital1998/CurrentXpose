@@ -1,112 +1,185 @@
-﻿@model FiltrosViewModel
-
-@{
-    ViewData["Title"] = "Tela de Historico Sindico";
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/morador/historico.css">
-    <link rel="stylesheet" href="~/css/barra-lateral/lateral.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js">
+    <link rel="stylesheet" href="~/css/lateral.css"> <!-- Adapte o caminho conforme necessário -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
 <body>
-    <div class="open-btn" onclick="toggleSidebar()">☰</div>
+    <div class="open-btn" style="color:#4caf50;" onclick="toggleSidebar()">☰</div>
 
     @{
         await Html.RenderPartialAsync("~/Views/BarraLateral/LateralSindico.cshtml");
     }
 
-    <div class="content">
-        <button class="filtro-expandir" id="toggleFilter" onclick="toggleFilterVisibility()">Expandir filtro</button>
-
-        <div class="filtro-container" id="filtroContainer" style="display: none;">
-            <form asp-controller="NomeDoSeuController" asp-action="HistoricoSindico" method="get">
-                <label class="filtro-label" for="dataInicio">Data Início:</label>
-                <input class="filtro-input" type="date" asp-for="DataInicio">
-
-                <label class="filtro-label" for="dataFim">Data Fim:</label>
-                <input class="filtro-input" type="date" asp-for="DataFim">
-
-                <label class="filtro-label" for="condominioId">Condomínio:</label>
-                <select class="filtro-input" asp-for="CondominioId" id="condominioId" name="CondominioId">
-                </select>
-
-                <label class="filtro-label" for="predioId">Prédio:</label>
-                <select class="filtro-input" asp-for="PredioId" id="predioId" name="PredioId">
-                </select>
-
-                <button class="filtro-button" type="submit">Pesquisar</button>
-            </form>
-        </div>
-
+    <div id="content">
         <div id="grafico">
-            <h2>Consumo de Energia</h2>
-            <canvas id="historicoSindicoChart" width="400" height="200"></canvas>
+            <h2 style="color:#156D2E;">Histórico do Consumo de Energia</h2>
+            <br />
+            <label for="dataSelecionada" style="color:#156D2E;">Selecione a data:</label>
+            <select id="dataSelecionada" onchange="atualizarGrafico()" style="padding: 5px; margin: 10px; border: 1px solid #156D2E;">
+                <option value="17/11/2023">17/11/2023</option>
+                <option value="18/11/2023">18/11/2023</option>
+                <option value="19/11/2023">19/11/2023</option>
+                <option value="20/11/2023">20/11/2023</option>
+                <option value="21/11/2023">21/11/2023</option>
+                <option value="22/11/2023">22/11/2023</option>
+                <option value="23/11/2023">23/11/2023</option>
+                <option value="24/11/2023">24/11/2023</option>
+                <option value="25/11/2023">25/11/2023</option>
+                <option value="27/11/2023">27/11/2023</option>
+            </select>
+            <br />
+            <br />
+            <canvas id="historicoSindicoChart" width="800" height="300" style="border: none;"></canvas>
         </div>
-
-        <div id="descricao">
-            <p>Descrição do gráfico de consumo de energia, local e período.</p>
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="site.js"></script>
-        <script>
-            iniciarGrafico();
-            carregarCondominios();
-            carregarPredios();
-
-            function toggleFilterVisibility() {
-                var filtroContainer = document.getElementById("filtroContainer");
-                filtroContainer.style.display = (filtroContainer.style.display === "none") ? "flex" : "none";
-            }
-
-            function carregarCondominios() {
-                $.ajax({
-                    url: '/api/Condominios', 
-                    type: 'GET',
-                    success: function (data) {
-                        var selectCondominio = document.getElementById('condominioId');
-                        selectCondominio.innerHTML = "";
-                        for (var i = 0; i < data.length; i++) {
-                            var option = document.createElement('option');
-                            option.value = data[i].Id;
-                            option.text = data[i].Nome;
-                            selectCondominio.appendChild(option);
-                        }
-                    },
-                    error: function (error) {
-                        console.error('Erro ao carregar opções de condomínio:', error);
-                    }
-                });
-            }
-
-            function carregarPredios() {
-                $.ajax({
-                    url: '/api/Prédios', 
-                    type: 'GET',
-                    success: function (data) {
-                        var selectPredio = document.getElementById('predioId');
-                        selectPredio.innerHTML = "";
-                        for (var i = 0; i < data.length; i++) {
-                            var option = document.createElement('option');
-                            option.value = data[i].Id;
-                            option.text = data[i].Nome;
-                            selectPredio.appendChild(option);
-                        }
-                    },
-                    error: function (error) {
-                        console.error('Erro ao carregar opções de prédio:', error);
-                    }
-                });
-            }
-        </script>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var meuGrafico; // Variável global para armazenar a instância do gráfico
+        var potenciaDia27; // Variável global para armazenar as potências do dia 27/11/2023
+
+        function converterKwhParaReal(kwh, bandeira) {
+            switch (bandeira) {
+                case 'verde':
+                    return (kwh * 0.5).toFixed(2);
+                case 'amarela':
+                    return (kwh * 0.7).toFixed(2);
+                case 'vermelha':
+                    return (kwh * 1.0).toFixed(2);
+                default:
+                    return kwh.toFixed(2);
+            }
+        }
+
+        function gerarPotencias() {
+            var datas = ['17/11/2023', '18/11/2023', '19/11/2023', '20/11/2023', '21/11/2023', '22/11/2023', '23/11/2023', '24/11/2023', '25/11/2023', '27/11/2023'];
+            var horas = ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00'];
+
+            return {
+                '17/11/2023': [100, 110, 120, 130, 140, 150, 160, 170, 180, 190],
+                '18/11/2023': [110, 120, 130, 140, 150, 160, 170, 180, 190, 200],
+                '19/11/2023': [120, 130, 140, 150, 160, 170, 180, 190, 200, 210],
+                '20/11/2023': [130, 140, 150, 160, 170, 180, 190, 200, 210, 220],
+                '21/11/2023': [140, 150, 160, 170, 180, 190, 200, 210, 220, 230],
+                '22/11/2023': [150, 160, 170, 180, 190, 200, 210, 220, 230, 240],
+                '23/11/2023': [160, 170, 180, 190, 200, 210, 220, 230, 240, 250],
+                '24/11/2023': [170, 180, 190, 200, 210, 220, 230, 240, 250, 260],
+                '25/11/2023': [180, 190, 200, 210, 220, 230, 240, 250, 260, 270],
+                '27/11/2023': [355, 382, 410, 446, 450, 488, 520, 560, 590, 610, 650, 658],
+            };
+        }
+
+        function atualizarGrafico() {
+            var ctx = document.getElementById('historicoSindicoChart').getContext('2d');
+
+            var dataSelecionada = document.getElementById('dataSelecionada').value;
+
+            var datas = ['17/11/2023', '18/11/2023', '19/11/2023', '20/11/2023', '21/11/2023', '22/11/2023', '23/11/2023', '24/11/2023', '25/11/2023', '27/11/2023'];
+            var horas = ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00'];
+
+            potenciaDia27 = gerarPotencias()['27/11/2023'];
+
+            var potenciasAnteriores = Array.from({ length: datas.length - 1 }, (_, index) => {
+                return Array.from({ length: horas.length }, (_, horaIndex) => {
+                    return potenciaDia27[horaIndex] - (index + 1) * 5;
+                });
+            });
+
+            var potencias = [...potenciasAnteriores, potenciaDia27];
+
+            var indexDataSelecionada = datas.indexOf(dataSelecionada);
+
+            if (indexDataSelecionada === -1) {
+                console.error('Data selecionada não encontrada:', dataSelecionada);
+                return;
+            }
+
+            var numMedicoesExibir = potencias[0].length;
+
+            var labelsExibir = horas.slice(-numMedicoesExibir);
+
+            var datasets = [{
+                label: 'Consumo - ' + dataSelecionada,
+                data: potencias[indexDataSelecionada].slice(-numMedicoesExibir),
+                fill: false,
+                borderColor: '#ffa500',
+                backgroundColor: '#ffa500',
+                pointRadius: 5,
+                pointHoverRadius: 7,
+                showLine: true,
+                xAxisID: 'x-axis-1'
+            }];
+
+            var config = {
+                type: 'line',
+                data: {
+                    labels: labelsExibir,
+                    datasets: datasets
+                },
+                options: {
+                    scales: {
+                        x: [{
+                            type: 'linear',
+                            position: 'bottom',
+                            id: 'x-axis-1',
+                            ticks: {
+                                callback: function (value, index, values) {
+                                    return labelsExibir[index];
+                                }
+                            }
+                        }],
+                        y: [{
+                            type: 'linear',
+                            position: 'left',
+                            ticks: {
+                                callback: function (value, index, values) {
+                                    return 'R$ ' + converterKwhParaReal(value, document.getElementById('bandeiraCheckbox').value);
+                                }
+                            }
+                        }]
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function (context) {
+                                var label = context.dataset.label || '';
+                                var valorReal = converterKwhParaReal(potencias[indexDataSelecionada][context.dataIndex], document.getElementById('bandeiraCheckbox').value);
+
+                                if (label) {
+                                    label += ': ';
+                                }
+
+                                if (context.parsed.y !== null) {
+                                    label += 'Valor: R$ ' + valorReal;
+                                }
+
+                                return label;
+                            }
+                        }
+                    }
+                }
+            };
+
+            if (meuGrafico) {
+                meuGrafico.destroy();
+            }
+
+            meuGrafico = new Chart(ctx, config);
+        }
+
+        atualizarGrafico();
+    </script>
 </body>
 
 </html>

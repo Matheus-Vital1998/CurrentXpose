@@ -23,7 +23,7 @@
         @{
             await Html.RenderPartialAsync("~/Views/BarraLateral/Lateral.cshtml");
         }
-        <form class="login-form" method="post" asp-action="FaleConosco" asp-controller="FaleConosco" style="margin-bottom: 80px;">
+        <form class="login-form" asp-action="Inicial" asp-controller="Morador" style="margin-bottom: 80px;">
             <h2>Fale com especialista</h2>
             <label for="Nome">Nome:</label>
             <input type="text" asp-for="Nome" id="Nome" required>

@@ -1,4 +1,4 @@
-﻿﻿body {
+﻿body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -83,3 +83,9 @@ button {
     background: linear-gradient(to bottom, #FFA500, #FFFFFF);
 }
 
+/* Adicionando regras de mídia para tornar a tela responsiva */
+@media screen and (max-width: 768px) {
+    .login-form {
+        max-width: 100%;
+    }
+}
