@@ -1,4 +1,4 @@
-﻿﻿body {
+﻿body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -76,7 +76,7 @@ button {
         color: #0056b3;
     }
 
-link-container {
+.link-container {
     margin-top: 20px;
 }
 
@@ -85,4 +85,11 @@ link-container {
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #FFA500, #FFFFFF);
+}
+
+/* Adicionando regras de mídia para tornar a tela responsiva */
+@media screen and (max-width: 768px) {
+    .login-form {
+        max-width: 100%;
+    }
 }
