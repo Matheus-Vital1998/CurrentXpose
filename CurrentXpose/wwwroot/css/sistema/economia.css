@@ -57,6 +57,7 @@ h2 {
 .post-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between; /* Distribui os elementos uniformemente na linha */
 }
 
 .card {
@@ -84,4 +85,11 @@ h2 {
 .card-body {
     padding: 16px;
     font-size: 16px;
+}
+
+/* Adicionando regras de mídia para tornar a tela responsiva */
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
 }

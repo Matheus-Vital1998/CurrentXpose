@@ -21,22 +21,53 @@
     }
 
     <div class="content">
-        <h2 style="color:#156D2E;">Seja bem-vindo, Sindico!</h2>
-        <p>CurrentXpose é a sua plataforma para monitoramento em tempo real do consumo de energia no condomínio.</p><br />
+        <h2 style="color:#156D2E;">Seja bem-vindo, Síndico!</h2>
+        <p>CurrentXpose é a sua plataforma para monitoramento em tempo real do consumo de energia no condomínio.</p>
+        <br />
 
         <div id="grafico">
             <h2 style="color:#156D2E;">Consumo de Energia</h2>
-            <canvas id="consumoCondominioChart" width="400" height="200"></canvas>
+            <label for="bandeiraCheckbox">Selecione a bandeira tarifária:</label>
+            <select id="bandeiraCheckbox" onchange="atualizarGrafico()">
+                <option value="verde">Verde</option>
+                <option value="amarela">Amarela</option>
+                <option value="vermelha">Vermelha</option>
+            </select>
+            <br />
+            <br />
+            <p id="ultimoConsumo">O último consumo medido do condominio foi de: R$ 0.00</p>
+            <canvas id="consumoCondominioChart" width="800" height="300"></canvas>
         </div>
     </div>
 
     <script>
-        function iniciarGrafico() {
-            var datas = ['01/01/2023'];
-            var horas = ['12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'];
-            var potencias = [100, 105, 110, 112, 113, 113, 114];
+        function converterKwhParaReal(kwh, bandeira) {
+            switch (bandeira) {
+                case 'verde':
+                    return kwh * 0.5;
+                case 'amarela':
+                    return kwh * 0.7;
+                case 'vermelha':
+                    return kwh * 1.0;
+                default:
+                    return kwh;
+            }
+        }
 
-            var numMedicoesExibir = 7; 
+        function atualizarGrafico() {
+            var datas = ['27/11/2023'];
+            var horas = ['09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00'];
+            var potencias = [355, 382, 410, 446, 450, 488, 520, 560, 590, 610, 650, 658];
+
+            var bandeira = document.getElementById('bandeiraCheckbox').value;
+            var potenciasEmReais = potencias.map(function (potencia) {
+                return converterKwhParaReal(potencia, bandeira);
+            });
+
+            var ultimoConsumo = potenciasEmReais[potenciasEmReais.length - 1].toFixed(2);
+            document.getElementById('ultimoConsumo').innerText = "Seu último consumo medido foi de: R$ " + ultimoConsumo;
+
+            var numMedicoesExibir = potencias.length;
 
             var labelsExibir = datas.slice(-numMedicoesExibir);
             var horasExibir = horas.slice(-numMedicoesExibir);
@@ -47,11 +78,11 @@
                 data: {
                     labels: horasExibir,
                     datasets: [{
-                        label: 'Potência - ' + labelsExibir[0], 
+                        label: 'Potência - ' + labelsExibir[0],
                         data: potenciasExibir,
                         fill: false,
-                        borderColor: '#2196f3',
-                        backgroundColor: '#2196f3',
+                        borderColor: '#ffa500',
+                        backgroundColor: '#ffa500',
                         pointRadius: 5,
                         pointHoverRadius: 7,
                         showLine: true,
@@ -90,9 +121,7 @@
                                     }
 
                                     if (context.parsed.y !== null) {
-                                        label += context.parsed.y;
-
-                                        label += ' kW';
+                                        label += 'Potência: ' + context.parsed.y + ' kW';
                                     }
 
                                     return label;
@@ -107,7 +136,7 @@
             new Chart(ctx, config);
         }
 
-        iniciarGrafico();
+        atualizarGrafico();
     </script>
 </body>
 
