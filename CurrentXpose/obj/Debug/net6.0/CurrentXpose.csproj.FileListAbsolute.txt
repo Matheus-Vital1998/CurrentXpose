@@ -122,14 +122,6 @@ Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\refint\CurrentXpose.dll
 Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.pdb
 Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.genruntimeconfig.cache
 Z:\CurrentXpose\CurrentXpose\obj\Debug\net6.0\ref\CurrentXpose.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.AssemblyReference.cache
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.AssemblyInfoInputs.cache
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.AssemblyInfo.cs
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.CoreCompileInputs.cache
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.RazorAssemblyInfo.cache
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.RazorAssemblyInfo.cs
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.json
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\appsettings.Production.json
@@ -143,6 +135,7 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Humanizer.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\IdentityModel.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -171,6 +164,7 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -199,6 +193,14 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Infra.dll
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Domain.pdb
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\CurrentXpose.Infra.pdb
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.AssemblyReference.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.AssemblyInfoInputs.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.AssemblyInfo.cs
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.csproj.CoreCompileInputs.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.RazorAssemblyInfo.cache
+C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.RazorAssemblyInfo.cs
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets\msbuild.CurrentXpose.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets\msbuild.build.CurrentXpose.props
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CurrentXpose.props
@@ -215,5 +217,3 @@ C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\Cur
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.pdb
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\CurrentXpose.genruntimeconfig.cache
 C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\obj\Debug\net6.0\ref\CurrentXpose.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\FH185\Documents\Ternomecanica\Projeto interdisciplinar\CurrentXpose\CurrentXpose\bin\Debug\net6.0\IdentityModel.dll
