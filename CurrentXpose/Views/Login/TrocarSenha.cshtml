@@ -14,7 +14,7 @@
 </head>
 <body class="login-bg">
     <div class="login-container">
-        <form class="login-form" method="post" asp-action="TrocarSenha" asp-controller="Login" style="margin-bottom: 80px;">
+        <form class="login-form" asp-action="Index" asp-controller="Login" style="margin-bottom: 80px;">
             <h1>Trocar Senha</h1>
             <label for="username">Username:</label>
             <input type="text" asp-for="Login" id="username" asp-for="Login" required>
@@ -26,7 +26,7 @@
             <input type="password" asp-for="NovaSenha" id="password" asp-for="NovaSenha" required>
             <button type="submit">Trocar Senha</button>
             <div class="text-center">
-                <a class="link" asp-action="Login" asp-controller="Login">Voltar</a>
+                <a class="link" asp-action="Index" asp-controller="Login">Voltar</a>
             </div>
         </form>
     </div>
